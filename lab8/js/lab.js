@@ -11,29 +11,24 @@ let soup = ['a', 'b', 'c', 'd', 'e'];
 let word = "Valarie";
 
 // Functions
-function yourFunctionName(x){
-  var results = x*x;
-  return results;
+function squareNumber(x) {
+  return x * x;
 }
-
-console.log(yourFunctionName(5));
-console.log(chicken.map(yourFunctionName));
-console.log(word);
-
-chicken.map(function(x){
-  var results = x*x;
-  return results;
-});
-
-var mapResults = chicken.map(yourFunctionName);
-console.log("Results:", mapResults);
-
 
 function main() {
-    console.log("Main function started.");
-    // the code that makes everything happen
+  console.log("Main function started.");
+
+  console.log(squareNumber(5));
+
+  let chickenSquared = chicken.map(squareNumber);
+  console.log("Chicken squared:", chickenSquared);
+
+  let anonSquared = chicken.map(function(x) {
+    return x * x;
+  });
+  console.log("Anonymous function results:", anonSquared);
+
+  console.log("Word:", word);
 }
-  
-  // let's get this party started
+
 main();
-  
