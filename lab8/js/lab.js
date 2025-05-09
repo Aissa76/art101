@@ -32,8 +32,8 @@ console.log("Results:", mapResults);
 function main() {
     console.log("Main function started.");
     // the code that makes everything happen
-  }
+}
   
   // let's get this party started
-  main();
+main();
   
