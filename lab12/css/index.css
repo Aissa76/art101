@@ -1,0 +1,37 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 100px;
+    border: solid 1px #888;
+    background-color: #A3C9A8;
+  }
+
+  
+  .sourcelink {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #f0f0f0;
+    text-decoration: underline;
+  }
+
+  .sorting-image {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+  }
+
+  #house-image {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #house-image img {
+    display: inline-block;
+  }
+
+  #house-image div {
+    color: lightgray;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
