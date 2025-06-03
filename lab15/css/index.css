@@ -1,0 +1,5 @@
+#nasa-output img, #nasa-output iframe {
+    margin-top: 10px;
+    border-radius: 8px;
+    max-width: 100%;
+}
